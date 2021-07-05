@@ -1,0 +1,241 @@
+.PrimeiroComponent{
+  margin: 5% 0px 0px 5%;
+  position: absolute;
+  transition-duration: 1s;
+  z-index: 200;
+}
+
+.SegundoComponent{
+  position: absolute;
+  margin: 10% 0px 0px 10%;
+  transition-duration: 1s;
+}
+
+.Input{
+  position: fixed;
+  top: -50px;
+}
+
+.Input:checked ~ .SegundoComponent{
+  z-index: 500;
+}
+
+.ReferenciaComponent{
+  display: flex; 
+  margin: 0px 10%; 
+}
+
+.ReferenciaComponent div{
+  width: 100%;
+  text-align: center;
+}
+
+.ReferenciaComponent div:last-child p{
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.ButtonCss{
+  margin-top: 20px;
+  padding: 8px 50px;
+  outline: none;
+  background: #02ABEC;
+  border: solid #02ABEC 1px ;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer
+}
+
+.Vantagens{
+  background-color: #02ABEC;
+  display: flex;
+  padding: 3% 9%;
+}
+
+.Vantagens div{
+  margin: 0px 1%;
+  width: 33.33333%;
+}
+
+.threeSection{
+  margin-top: 200px;
+  text-align: center;
+  padding: 3% 0px;
+  background: #02ABEC;
+}
+
+.threeSection button{
+  background: white;
+  color: #02abec;
+}
+
+.threeSection h3{
+  background: #02abec;
+  padding: 2% 0px;
+  color: #FCFBFC;
+  font-weight: 600;
+	font-size: 25px;
+}
+
+.Vantagens img{
+  padding: 0px 20px !important;
+  background-color: #02ABEC;
+}
+
+.threeComponent{
+  margin: 5% 10%;
+  text-align: center;
+}
+
+.threeComponent h2{
+  margin: 3% 0%;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.DuasImagens img{
+padding: 20px !important;
+}
+
+.FinalSection{
+  display: flex;
+}
+
+.FinalSection div {
+  width: 100%;
+
+}
+
+.DivTexto{
+  text-align: center;
+  margin-left: 10%;
+}
+
+.threeSection p{
+  font-weight: 500;
+  color: white;
+}
+
+.DivForm p {
+  font-weight: 500;
+  color: white;
+  padding: 0px 0px 0px 10px;
+}
+
+@media (max-width: 750px){
+
+  .ReferenciaComponent{
+    padding-top: 50%;
+    flex-direction: column;
+  }
+
+  .PrimeiraSection{ 
+    margin: 0px 15vw;
+    padding-top: 50px;
+  }
+
+  .FinalSection{
+   flex-direction: column; 
+  }
+
+  .DivTexto{
+    margin: 30px 0px;
+  }
+
+  .threeComponent h2{
+    padding: 80px 0px 10px
+  }
+
+  .DuasImagens{
+    padding: 30px 0px;
+  }
+
+}
+
+@media (max-width: 485px){
+  
+  .PrimeiraSection{ 
+    margin: 20px 10vw;
+    padding-top: 50px;
+  }
+
+  .ReferenciaComponent{
+    padding-top: 70%;
+    flex-direction: column;
+  }
+
+  .threeSection{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .threeComponent h2{
+    padding: 10px 0px 10px
+  }
+}
+
+
+@media (max-width: 485px){
+
+  .PrimeiraSection{ 
+    margin: 20px 6vw;
+    position: relative;
+  }
+
+  .DivTexto{
+    padding: 0px 10px;
+  }
+
+  .InfoMoradia{
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 390px){
+
+  .PrimeiraSection{ 
+    margin: 20px 3vw;
+  }
+
+}
+
+@media (max-width: 365px){
+
+  .PrimeiraSection{ 
+    margin: 20px 10px;
+  }
+
+}
+
+@media (max-width: 365px){
+
+  .PrimeiraSection{ 
+    margin: 20px 10px;
+    position: relative;
+  }
+
+}
+
+.btnZap{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.Obrigado{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.LogoDiv{
+  position: absolute;
+  right: 10%;
+  top: 30px;
+}
