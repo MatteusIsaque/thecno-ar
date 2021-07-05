@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     
     const tagIntem = {
-      gtmId: "GTM-MD73J82",
+      gtmId: "GTM-W88MHN6",
       events: {
         onclick
       }
