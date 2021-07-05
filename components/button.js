@@ -6,7 +6,7 @@ import TagManager from "react-gtm-module"
 export default function Button(props) {
 
     return (
-        <Link href="https://api.whatsapp.com/send?phone=5511994519628">
+        <Link href="https://api.whatsapp.com/send?phone=5511944985976">
             <button id="captura-click-zap" onClick={()=>{console.log("ae")}} className={Style.ButtonCss}> {props.textoButton} </button>
         </Link>
     )

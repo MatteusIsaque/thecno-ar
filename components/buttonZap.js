@@ -7,7 +7,7 @@ export default function buttonZap() {
 
     return (
         <div className={Style.btnZap}>
-            <Link href="https://api.whatsapp.com/send?phone=5511994519628">
+            <Link href="https://api.whatsapp.com/send?phone=5511944985976">
                 <Image id="botao-flutuante-zap" src={WhatsApp} width={64} height={64} />
             </Link>
         </div>

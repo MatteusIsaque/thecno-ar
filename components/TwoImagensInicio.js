@@ -2,9 +2,9 @@ import Style from './../styles/Home.module.css'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
-import PrimeiraImage from './../img/Camada2.jpg'
-import SegundaImage from './../img/camada3.jpg'
-import LogoImage from './../img/Logo.jpg'
+import PrimeiraImage from './../img/thecnoar-oficina.jpg'
+import SegundaImage from './../img/troca-de-filtro.jpg'
+import LogoImage from './../img/Logo.png'
 
 export default function PrimeiroComponent() {
 
@@ -35,7 +35,7 @@ export default function PrimeiroComponent() {
     return (
         <>
             <div className={Style.LogoDiv}>
-                <Image src={LogoImage} width={120} height={40} />
+                <Image src={LogoImage} width={278} height={40}  />
             </div>
             <section className={Style.PrimeiraSection}>
                 {

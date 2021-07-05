@@ -13,13 +13,13 @@ export default function ReferenciaNoTrabalho() {
             </div>
             <div>
                 <h1>
-                    <span>Destaque</span> sua marca, Invista na <span>sua empresa</span>,<br /> Mostre ao seu <span>publico</span> onde você está!
+                    OFICINA ESPECIALIZADA EM <span>AR CONDICIONADO</span> AUTOMOTIVO - LOCALIZADA NO <span>IPIRANGA</span>
                 </h1>
-                    <p>FACHADAS EM <span>ACM</span></p>
-                    <p>REVESTIMENTO EM <span>ACM</span></p>
-                    <p>LETREIROS EM <span>LED</span></p>
-                    <p>LUMINOSOS</p>
-                    <p>LETRA CAIXA</p>
+                    <p>AR CONDICIONADO AUTOMOTIVO</p>
+                    <p>INSTALAÇÃO E REPARO</p>
+                    <p>CARGA DE GÁS</p>
+                    <p>HIGIENIZAÇÃO</p>
+                    <p>AUTO ELÉTRICO</p>
                     <Button textoButton="Chamar Agora" />
             </div>
         </section>

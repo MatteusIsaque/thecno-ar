@@ -1,12 +1,12 @@
 import Style from './../styles/Home.module.css'
 import Image from 'next/image'
 
-import PrimeiraImage from './../img/Ameripan.jpg'
-import SegundaImage from './../img/JoseNeves.jpg'
-import TerceiraImage from './../img/MaisEstilo.jpg'
-import QuartaImage from './../img/Mega.jpg'
-import QuintaImage from './../img/phoneStart.jpg'
-import SextaImage from './../img/Rei.jpg'
+import TerceiraImage from './../img/Camada1.png'
+import SegundaImage from './../img/Camada2.png'
+import QuartaImage from './../img/Camada3.png'
+import QuintaImage from './../img/Camada4.png'
+import SextaImage from './../img/Camada5.png'
+import PrimeiraImage from './../img/Camada6.png'
 
 export default function threeComponent() {
     return (

@@ -69,9 +69,9 @@ export default function Final() {
                 caso prefirir,<br /> acesse o link do whatsapp a baixo e fale diretamente<br /> com um de nossos Profissionais.</p>
                 <br /><br />
 
-                <p className={Style.InfoMoradia}>Estra. Do Campo Limpo, 4725 - Vila Pirajussara<br /> São Paulo - SP, 05757-060</p>
+                <p className={Style.InfoMoradia}>AV. DR RICARDO JAFET 529 IPIRANGA<br /> SÃO PAULO - SP, 05757-060</p>
                 <br/>
-                <p className={Style.InfoMoradia}>telefone: 11 99451-9628</p>
+                <p className={Style.InfoMoradia}>TELEFONE: 11 94498-5976</p>
                 <Button textoButton="Falar com atendente" />
 
             </div>

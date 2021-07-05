@@ -39,8 +39,8 @@
   margin-top: 20px;
   padding: 8px 50px;
   outline: none;
-  background: #02ABEC;
-  border: solid #02ABEC 1px ;
+  background: #fe0000;
+  border: solid #fe0000 1px ;
   font-size: 18px;
   color: white;
   border-radius: 20px;
@@ -48,7 +48,7 @@
 }
 
 .Vantagens{
-  background-color: #02ABEC;
+  background-color: #0079c8;
   display: flex;
   padding: 3% 9%;
 }
@@ -62,16 +62,16 @@
   margin-top: 200px;
   text-align: center;
   padding: 3% 0px;
-  background: #02ABEC;
+  background: #0079c8;
 }
 
 .threeSection button{
-  background: white;
-  color: #02abec;
+  background: #fe0000;
+  color: #fff;
 }
 
 .threeSection h3{
-  background: #02abec;
+  background: #0079c8;
   padding: 2% 0px;
   color: #FCFBFC;
   font-weight: 600;
@@ -80,7 +80,7 @@
 
 .Vantagens img{
   padding: 0px 20px !important;
-  background-color: #02ABEC;
+  background-color: #0079c8;
 }
 
 .threeComponent{

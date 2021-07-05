@@ -21,8 +21,8 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-  from: 'contatoartesletras@gmail.com',
-  to: 'contatoartesletras@gmail.com',
+  from: 'thecnoarcondicionado@gmail.com',
+  to: 'thecnoarcondicionado@gmail.com',
   subject: 'Email recebido pela campanha',
   text:
    `
@@ -30,6 +30,9 @@ var mailOptions = {
   Nome: ${Nome}
   Numero: ${Numero}
   Mensagem: ${Texto}
+
+  Não responsa esse email!
+
   `
 };
 

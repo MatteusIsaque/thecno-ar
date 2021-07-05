@@ -1,9 +1,9 @@
 import Style from './../styles/Home.module.css'
 import Image from 'next/image'
 
-import PrimeiraImage from './../img/Camada1.jpg'
-import SegundaImage from './../img/cada3.jpg'
-import TerceiraImage from './../img/DNA.jpg'
+import PrimeiraImage from './../img/limpeza.jpg'
+import SegundaImage from './../img/carga.jpg'
+import TerceiraImage from './../img/auto-eletrico.jpg'
 
 import Button from './button'
 
@@ -12,8 +12,8 @@ export default function Vantagens() {
 
     return (
         <section className={Style.threeSection}>
-            <h3> Paineis e letreiros para fachadas em ACM</h3>
-            <p>Desenvolvemos logos, totens, letras e paineis, com ou sem iluminação. desenvolvimento em instalação com garantia e qualidade.</p>
+            <h3> SERVIÇOS DE AUTO ELÉTRICO E HIGIENIZAÇÃO AUTOMOTIVO</h3>
+            <p>Realize a manutenção ou instalação de seu ar condicionado automotivo. Troca de filtro, higienização, carga de gás, limpeza e parte elétrico</p>
             <div className={Style.Vantagens}>
                 <Image src={PrimeiraImage} width={528} height={400} layout="responsive" />
 

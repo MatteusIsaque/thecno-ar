@@ -46,13 +46,14 @@ table {
 }
 
 span{
-	color: #02ABEC;
+	color: #fe0000;
 }
 
 h1{
 	margin: 30% 0px 10%;
 	font-size: 35px;
-	font-weight: 600;
+	
+	font-weight: 700;
 }
 
 input{
@@ -73,7 +74,7 @@ textarea{
 }
 
 form{
-	background: #02ABEC;
+	background: #0079c8;
 	padding: 50px 20% 50px 50px;
 }
 
@@ -86,13 +87,13 @@ form > button {
 	background: white;
 	border: solid white 1px ;
 	font-size: 14px;
-	color: #02ABEC;
+	color: #0079c8;
 	border-radius: 20px;
 	cursor: pointer
 }
 
 h5{
-	background: #02ABEC;
+	background: #0079c8;
 	text-align: center;
 	padding: 10px 0px;
 	font-size: 14px;
